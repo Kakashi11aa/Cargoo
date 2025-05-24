@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EAEAEA;
+  font-family: serif;
+}
+
+@media(max-width: 480px) {
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    line-height: 60px
+  }
+
+  header > h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FF8A04;
+    font-family: monospace;
+    animation-name: cargo;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes cargo {
+    0% {
+      color: #0062ff;
+    }
+
+    50% {
+      color: #ff594a;
+    }
+
+    100% {
+      color: #0e2c2e;
+    }
+  }
+
+  .contenier {
+    margin-top: 20px;
+    width: 330px;
+    height: 180px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 2px 1px #00000036;
+  }
+
+
+  h4 {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #150F0F;
+
+  }
+
+.contenier > ul {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  width: 250px;
+
+}
+
+   .contenier > ul > li {
+     border: solid 1px #150F0F;
+     list-style: none;
+     border-radius: 50px;
+     padding: 5px;
+
+   }
+.online {
+  margin-top: 20px;
+  width: 330px;
+  height: 280px;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 2px 1px #00000036;
+}
+
+h5 {
+  color: #150F0F;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.online > ul {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ margin-top: 20px;
+
+}
+
+.online > ul > li {
+  list-style: none;
+  background: #2293ff;
+  height: 40px;
+  width: 270px;
+  border-radius: 4px;
+  line-height: 40px;
+  box-shadow: 0px 2px 2px 1px #00000036;
+
+}
+
+.online > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a:active {
+  background: #312d2d;
+}
+
+
+
+
+
+}
