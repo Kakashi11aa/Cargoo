@@ -31,7 +31,7 @@ body {
     color: #FF8A04;
     font-family: monospace;
     animation-name: cargo;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
@@ -44,6 +44,10 @@ body {
 
     50% {
       color: #ff594a;
+    }
+
+    70% {
+      color: #2effa4;
     }
 
     100% {
@@ -133,13 +137,4 @@ h5 {
   text-transform: uppercase;
   font-weight: bold;
 }
-
-a:active {
-  background: #312d2d;
-}
-
-
-
-
-
 }
